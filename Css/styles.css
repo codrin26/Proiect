@@ -1,0 +1,316 @@
+body {
+	margin: 0;
+	background:  ;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+  background-image: url(https://cdn.inspirationhut.net/wp-content/uploads/2013/05/61.png);
+}
+
+/*********************************** PARTEA DE INTRODUCERE ***************************/
+.poza1{
+float: left;
+border-radius: 50%;
+overflow: hidden;
+margin-right: 50px;
+margin-left: 100px;
+height: 300px;
+}
+.introducere{
+  text-align: left;
+  height: 300px;
+
+}
+.Gelu{
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+
+.descriere{
+line-height: 2;
+padding: 40px;
+font-size: 20px;
+}
+.nr{
+  text-align: center;
+}
+hr{
+  height: 0;
+  width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  color: 	#55d6aa;
+border-width: 10px;
+margin-top: 100px;
+}
+.scoaladesoferi{
+	margin-left: 100px;
+	line-height: 3;
+
+}
+
+.despremasina{
+	margin-left: 100px;
+	line-height: 3;
+	margin-top:100px;
+}
+.locatia{
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Courgette', cursive;
+}
+.Cursuri{
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Courgette', cursive;
+}
+.titlumasini{
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Courgette', cursive;
+}
+/*********************************** PARTEA DE INTRODUCERE ***************************/
+
+/*****************************NAV BAR****************************/
+.container {
+	width: 80%;
+	margin: 10px auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: right;
+  padding: 10px 0;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+/*******************************NAV BAR************************/
+
+/*********************ACTE NECESARE******************/
+ul{
+  list-style-image: url(next.png);
+
+}
+ul li{
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.actele{
+	width: 70%;
+	margin-left: 100px;
+	margin-top: 100px;
+	line-height: 2;
+
+}
+
+.titluacte{
+	margin-left: 200px;
+	margin-top: 100px;
+	font-family: 'Courgette', cursive;
+}
+
+.titlucazier{
+	margin-left: 100px;
+	margin-top: 200px;
+	font-family: 'Courgette', cursive;
+}
+.actecazier{
+	width: 70%;
+	margin-left: 100px;
+	margin-top: 50px;
+	line-height: 2;
+}
+
+.dosarfolie{
+	margin-left: 120px;
+	margin-top: 100px;
+	font-family: 'Courgette', cursive;
+}
+.atentie{
+	margin-left: -20px;
+	font-family: 'Merienda One', cursive;
+	font-size: 20px;
+
+}
+/************ PROGRAM CAZIER *************************/
+.programcaziermun{
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+.programcazieripj{
+margin-left: 200px;
+}
+
+.program{
+	border-collapse: collapse;
+	margin: 100px 300px;
+	font-size: 17px;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+}
+
+.program thead tr{
+	background-color: #55d6aa;
+	text-align: left;
+	font-weight: bold;
+}
+
+.program th,
+.program td{
+	padding: 12px 15px;
+}
+
+.program tbody tr{
+	border-bottom: 1px solid 	#888888;
+}
+.program tbody tr:nth-of-type(even) {
+	background-color: #C8C8C8;
+}
+.program tbody tr:last-of-type{
+	border-bottom: 3px solid #55d6aa;
+}
+/************ PROGRAM CAZIER *************************/
+
+
+/*********************ACTE NECESARE******************/
+
+
+/*********************MASINILE SCOLII******************/
+
+.infmasina1{
+	position:relative;
+	height: 600px;
+}
+
+.masina1{
+	margin-left: 100px;
+	padding-top: 100px;
+	float: left;
+	margin-right: 50px;
+}
+.detaliimasina1{
+	padding-top: 200px;
+}
+
+
+/*********************MASINILE SCOLII******************/
+
+/****************CURSURI DE LEGISLATIE******************/
+.despreleg{
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'Courgette', cursive;
+}
+.leg{
+	line-height: 2.5;
+	margin-top: 100px;
+	margin-left: 100px;
+
+
+}
+
+/**********************CONTACT*************************/
+
+.titlucontact{
+  text-align: center;
+	margin-top: 100px;
+	font-family: 'Courgette', cursive;
+
+}
+
+.contactgelu{
+	margin-top: 150px;
+	height: 400px;
+	position: relative;
+}
+.contacte{
+	padding-top: 45px;
+	line-height: 3;
+}
+
+.poza2{
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 80px;
+	margin-left: 100px;
+	height: 300px;
+	width: 350px;
+
+}
+
+.telefon{
+	position: absolute;
+	top: 55px;
+  left: 470px;
+}
+
+.mail{
+	position: absolute;
+	top: 117px;
+	left: 470px;
+}
+
+.wapp{
+	position: absolute;
+	top: 179px;
+	left: 470px;
+}
